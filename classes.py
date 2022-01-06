@@ -109,7 +109,7 @@ class VisualOdometry:
         self.dataset = dataset # Dataset
         self.poses = dataset.oxts # List of poses
         self.gtX, self.gtY, self.gtZ = 0, 0, 0 # Ground truth position
-        self.detector = cv.FastFeatureDetector_create(threshold=20, nonmaxSuppression=True)
+        self.detector = cv.FastFeatureDetector_create(threshold=25, nonmaxSuppression=True)
 
     def getAbsoluteScale(self, frameId):
         """Get absolute scale of current frame"""
