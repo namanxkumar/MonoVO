@@ -1,7 +1,7 @@
 # MonoVO
  An implementation of Monocular Visual Odometry on the KITTI dataset using OpenCV in Python
 
-![Map](map.png)
+![Map](animation.gif)
 
 ### Requirements
 * Python 2.7
