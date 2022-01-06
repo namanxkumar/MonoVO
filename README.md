@@ -8,7 +8,7 @@
 * PyKITTI
 
 ### Dataset
- [KITTI odometry data set (grayscale, 22 GB)](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
+ [KITTI raw data set (cam0 grayscale)](http://www.cvlibs.net/datasets/kitti/raw_data.php)
  
 ### Usage
 Modify the path in [main.py](main.py) to your image sequences and ground truth trajectories, then run
