@@ -3,7 +3,6 @@ import cv2 as cv
 
 MIN_FEATURES = 2000
 
-
 def featureTracking(prevImage, currImage, prevPts):
     # Initialize the parameters
     lk_params = dict(winSize=(21, 21),
