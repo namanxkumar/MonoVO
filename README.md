@@ -15,7 +15,7 @@
 ### Usage
 Modify the path in [main.py](main.py) to your image sequences and ground truth trajectories, then run
 ```
-python test.py
+python main.py
 ```
 
 ### References
